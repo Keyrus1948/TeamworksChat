@@ -62,23 +62,7 @@
 		initESW('https://service.force.com');
 	}
 </script>
-<script>
-		function checkAvailability() {
-			const elementEnabled = document.getElementsByClassName('uiButton helpButtonEnabled');
-			const elementDisabled = document.getElementsByClassName('uiButton helpButtonDisabled');
-			if(elementEnabled && elementEnabled.length > 0) {
-			    document.getElementsByClassName('embeddedServiceHelpButton').item(0).style.display = "block";
-			}
-			if(elementDisabled && elementDisabled.length > 0) {
-			    document.getElementsByClassName('embeddedServiceHelpButton').item(0).style.display = "none";
-			}     
-		    }
-		
-		   
-		    window.setInterval(function () {
-			checkAvailability();
-		    }, 500);
-</script>
+
 </head>
 	<body style="width: 98%; height: 98%">
 		<img src="https://teamworks--uat.sandbox.file.force.com/servlet/servlet.ImageServer?id=015Ec000000AVYn&oid=00DEc000000Q1Ez&lastMod=1696587134000" alt="image" style="width: 97%; height: 97%; text-align: center; display: block;margin-left: auto; margin-right: auto;" >
